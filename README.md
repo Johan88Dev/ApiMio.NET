@@ -16,6 +16,7 @@ Efter att klonen gjorts och programmet öppnas i Visual Studio 2022, så behövs
 10: 2 endpoints finns, alla produkter och individuella produkter<br>
 11: om en endpoint som inte finns efterfrågas så leveras ett standard 404 response via swagger <br>
 12: Man kan via swagger utföra alla CRUD metoder<br>
+13: https://localhost:7093/products
 <br>
 Den stora skillnaden på denna API-strukturen och den db.json fil som följde med uppgiften, är att campaign inte längre är en nästlad JSON
 utan den har istället plattats ut genom att lyfta ut 'name' och 'discountPercent' ur campaign och istället lägga dom i en rak json struktur.
