@@ -5,7 +5,7 @@ Efter att klonen gjorts och programmet öppnas i Visual Studio 2022, så behövs
 2: Skriv: <b>add-migration initial</b><br>
 3: När build är klar, skriv: <b>Update-Database</b><br>
 4: När det är klart öppna <b>Custom SQL</b> via solution explorer -> dbContent<br>
-5: Kopiera nu hela sökvägen till db.json i dbContent mappen, klistra in på de två rödmarkerade områdena i custom SQL filen (Rad 17 & Rad 44)<br>
+5: Kopiera nu hela sökvägen till db.json i dbContent mappen, klistra in på de två rödmarkerade områdena i custom SQL filen (Rad 11 & Rad 38)<br>
 6: Kör SQL koden<br>
 7: Vid prompt, välj lokal och ange Database Name som är ProductsDb  (finns i dropdownen)<br>
 8: Nu bör databasen vara fylld med produktdata.<br>
